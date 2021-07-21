@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ReactApiFetch/static/css/main.a617e044.chunk.css",
+    "main.js": "/ReactApiFetch/static/js/main.50c12496.chunk.js",
+    "main.js.map": "/ReactApiFetch/static/js/main.50c12496.chunk.js.map",
+    "runtime-main.js": "/ReactApiFetch/static/js/runtime-main.cc47eac9.js",
+    "runtime-main.js.map": "/ReactApiFetch/static/js/runtime-main.cc47eac9.js.map",
+    "static/js/2.34fa496b.chunk.js": "/ReactApiFetch/static/js/2.34fa496b.chunk.js",
+    "static/js/2.34fa496b.chunk.js.map": "/ReactApiFetch/static/js/2.34fa496b.chunk.js.map",
+    "static/js/3.21540c9b.chunk.js": "/ReactApiFetch/static/js/3.21540c9b.chunk.js",
+    "static/js/3.21540c9b.chunk.js.map": "/ReactApiFetch/static/js/3.21540c9b.chunk.js.map",
+    "index.html": "/ReactApiFetch/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/ReactApiFetch/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.34fa496b.chunk.js.LICENSE.txt": "/ReactApiFetch/static/js/2.34fa496b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/ReactApiFetch/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc47eac9.js",
+    "static/js/2.34fa496b.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.50c12496.chunk.js"
+  ]
+}
