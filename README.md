@@ -1,6 +1,6 @@
-## React Fetch Gllery
+## React Fetch Gallery
 
-타임어택으로 fetch Gallery를 구현하는 프로젝트 입니다.
+타임어택으로 fetch Gallery를 구현하는 프로젝트 입니다.<br/>
 API호출 연습을 위해 Fetch를 활용 하였습니다.
 
 ## DEV
