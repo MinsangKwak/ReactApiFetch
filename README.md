@@ -1,3 +1,3 @@
-# gallery - using 'fetch'
-- 기술스택 정리를 위한 문서입니다.
-- fetch를 활용합니다.
+## React Fetch Gllery
+
+타임어택으로 fetch Gallery를 구현하는 프로젝트 입니다.
