@@ -1,7 +1,7 @@
 ## React Fetch Gallery
 
 타임어택으로 fetch Gallery를 구현하는 프로젝트 입니다.<br/>
-API호출 연습을 위해 Fetch를 활용 하였습니다.
+API호출 연습을 위해 fetch활용 후 axios로 활용을 해 보았습니다.
 
 ## DEV
 
@@ -10,7 +10,7 @@ API호출 연습을 위해 Fetch를 활용 하였습니다.
 ![React](https://img.shields.io/badge/React-61Dafb?style=flat-square&logo=React&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat-square&logo=JavaScript&logoColor=white)
 
-`React`와 `Fetch`를 주로 공부하기 위한 프로젝트입니다.
+`React`와 `API`를 주로 공부하기 위한 프로젝트입니다.
 
 ## Github Pages로 배포하기
 
@@ -41,3 +41,12 @@ npm run deploy
 만약 gh-pages branch가 없다면, 위의 push 방법을 사용해서 변경된 pakage.json을 git에 한번 더 push한다.
 
 5. 그리고 해당 io 페이지로 이동하면 끝
+
+## Axios 활용하기
+
+Axois는 브라우저, Node.js를 위한 Promise API를 활용하는 HTTP 비동기 통신 라이브러리 이다.
+
+### 사용법
+1. axios 설치
+2. HTTP Methods
+3. Axios 사용해보기
