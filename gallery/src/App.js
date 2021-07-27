@@ -1,27 +1,38 @@
-import React from 'react';
+import React,{useState, useEffect} from 'react';
+import WebFont from 'webfontloader';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import BodyInner from './Components/BodyInner';
 import Header from './Components/Header';
 import HeadTitle from './Components/HeadTitle';
 import ButtonWrapper from './Components/ButtonWrapper';
-import Button from './Components/Button';
+// import Button from './Components/Button';
 import ImgContainer from './Components/ImgContainer';
 import Img from './Components/Img';
 
 const GlobalStyle = createGlobalStyle`
+
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size:62.5%;
     font-weight:400;
     margin:0;
     padding:0;
-    background-color: #181818;
+    background-color: #EBECF0;
     color: #eee;
   }
 
 `
 
 const App = () => {
+  
+  useEffect(() => {
+    WebFont.load({
+      google: {
+        families: ['Montserrat']
+      }
+    });
+  }, []);
+
   return (
     <>
     <ThemeProvider
@@ -35,11 +46,7 @@ const App = () => {
     >
       <BodyInner>
         <Header>
-          <HeadTitle>Gallery</HeadTitle>
-          <ButtonWrapper>
-            <Button>추가</Button>
-            <Button color="red">삭제</Button>
-          </ButtonWrapper>
+          <HeadTitle>Gallery Author</HeadTitle>
         </Header>
         <ImgContainer>
           <Img></Img>

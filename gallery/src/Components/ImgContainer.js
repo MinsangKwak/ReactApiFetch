@@ -4,8 +4,7 @@ import styled from 'styled-components';
 const StyledImgContainer = styled.div`
     padding:0.2rem;
     box-sizing:border-box;
-    border:0.25rem solid #fefefe;
-    min-height:20rem;
+    /* border:0.15rem solid #fefefe; */
 `
 
 const ImgContainer = ({children}) => {

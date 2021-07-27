@@ -6,14 +6,18 @@ const StyledButton = styled.button`
 
   /* 공통 스타일 */
   display: inline-flex;
+  text-align:center;
   align-items: center;
   outline: none;
   border: none;
   border-radius: 4px;
   color: white;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
   padding:0 0.85rem;
+  box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
 
   /* 크기 */
   height: 2.25rem;
