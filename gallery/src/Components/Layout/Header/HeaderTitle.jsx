@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const StyledHeadTitle = styled.h2`
+const HeaderTitleStyle = styled.h2`
     color:#BABECC;
     font-size:2.25rem;
     margin:1rem 0;
@@ -9,7 +9,7 @@ const StyledHeadTitle = styled.h2`
 `
 
 const HeadTitle = ({children}) => {
-    return <StyledHeadTitle>{children}</StyledHeadTitle>
+    return <HeaderTitleStyle>{children}</HeaderTitleStyle>
 }
 
 

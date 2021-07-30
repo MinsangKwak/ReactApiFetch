@@ -2,7 +2,7 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 import { darken, lighten } from 'polished';
 
-const StyledButton = styled.button`
+const ButtonStyle = styled.button`
 
   /* 공통 스타일 */
   display: inline-flex;
@@ -44,12 +44,11 @@ const StyledButton = styled.button`
 `;
 
 const Button = ({ children, ...rest }) => {
-  return <StyledButton {...rest}>{children}</StyledButton>;
+  return <ButtonStyle {...rest}>{children}</ButtonStyle>;
 }
 
 Button.defaultProps = {
   color: 'blue'
-  // color: 'gray'
 };
 
 
