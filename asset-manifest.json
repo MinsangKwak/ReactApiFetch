@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/ReactApiFetch/static/js/main.2e99f2d4.chunk.js",
-    "main.js.map": "/ReactApiFetch/static/js/main.2e99f2d4.chunk.js.map",
+    "main.js": "/ReactApiFetch/static/js/main.c8c059e1.chunk.js",
+    "main.js.map": "/ReactApiFetch/static/js/main.c8c059e1.chunk.js.map",
     "runtime-main.js": "/ReactApiFetch/static/js/runtime-main.5b6f7e62.js",
     "runtime-main.js.map": "/ReactApiFetch/static/js/runtime-main.5b6f7e62.js.map",
     "static/js/2.e34ee4f0.chunk.js": "/ReactApiFetch/static/js/2.e34ee4f0.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.5b6f7e62.js",
     "static/js/2.e34ee4f0.chunk.js",
-    "static/js/main.2e99f2d4.chunk.js"
+    "static/js/main.c8c059e1.chunk.js"
   ]
 }
