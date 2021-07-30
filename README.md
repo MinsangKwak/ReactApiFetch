@@ -1,27 +1,60 @@
 ## React Fetch Gallery
 
-타임어택으로 fetch Gallery를 구현하는 프로젝트 입니다.<br/>
-API호출 연습을 위해 fetch활용 후 axios로 활용을 해 보았습니다.
+API호출 연습을 하기 위해 만든 프로젝트입니다.<br/>
+fetch함수로 최초 작성 후 axios로 변경해 보았습니다.
 
-## DEV
+https://qkaxhfms.github.io/ReactApiFetch/
 
-### **Front-End**
+### Discription
+`React` SPA를 활용하여 `API` 통신을 공부하기 위해 만들어 보았습니다.
+- jsonplacholder에서 데이터를 불러옵니다.
+- RELOAD버튼 클릭 시 데이터를 다시 불러옵니다.
 
+### Tech
 ![React](https://img.shields.io/badge/React-61Dafb?style=flat-square&logo=React&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat-square&logo=JavaScript&logoColor=white)
+[![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)
 
-`React`와 `API`를 주로 공부하기 위한 프로젝트입니다.
 
-## Github Pages로 배포하기
+### 파일 디렉토리
 
-### Github Setting
+```bash
+└── src
+    ├── App.jsx
+    ├── Components 
+    │   ├── Common
+    │   │   ├── Button
+    │   │   │   └── Button.jsx
+    │   │   └── Lists
+    │   │       └── Lists.jsx
+    │   └── Layout
+    │       ├── Header
+    │       │   ├── Header.jsx
+    │       │   └── HeaderTitle.jsx
+    │       ├── Body
+    │       │   └── Body.jsx
+    │       └── Container
+    │           ├── Container.jsx
+    │           └── ButtonContainer.jsx
+    └── index.jsx
+```
+
+## 사전지식
+
+### Axios 활용하기
+
+Axois는 브라우저, Node.js를 위한 Promise API를 활용하는 HTTP 비동기 통신 라이브러리 이다.
+
+### Github Pages로 배포하기
+
+#### Github Setting
 
 우선 react 프로젝트 배포를 위해서 github repository를 하나 생성한다.<br/>
 그 다음 github repository의 Settings 탭으로 이동하여<br/>
 GitHub Pages 설정을 master로 변경한다.<br/>
 Branch는 본인이 React 프로젝트를 push한 branch로 선택하며 , root와 docs를 선택한다.<br/>
 
-### React Project Setting
+#### React Project Setting
 
 1. Github Page로 프로젝트 배포를 위해서는 gh-pages라는 모듈 설치가 필요하다.<br/>
 아래의 명령어를 통해서 패키지를 설치해준다.
@@ -41,12 +74,3 @@ npm run deploy
 만약 gh-pages branch가 없다면, 위의 push 방법을 사용해서 변경된 pakage.json을 git에 한번 더 push한다.
 
 5. 그리고 해당 io 페이지로 이동하면 끝
-
-## Axios 활용하기
-
-Axois는 브라우저, Node.js를 위한 Promise API를 활용하는 HTTP 비동기 통신 라이브러리 이다.
-
-### 사용법
-1. axios 설치
-2. HTTP Methods
-3. Axios 사용해보기
