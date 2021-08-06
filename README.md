@@ -3,7 +3,7 @@
 API호출 연습을 하기 위해 만든 프로젝트입니다.<br/>
 fetch함수로 최초 작성 후 axios로 변경해 보았습니다.
 
-https://qkaxhfms.github.io/ReactApiFetch/
+https://minsangkwak.github.io/ReactApiFetch/
 
 ### Discription
 `React` SPA를 활용하여 `API` 통신을 공부하기 위해 만들어 보았습니다.
